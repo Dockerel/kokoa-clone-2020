@@ -49,3 +49,17 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__mark {
+  display: block;
+  position: absolute;
+  top: 161px;
+  left: 287.5px;
+  font-size: 14px;
+  font-weight: 600px;
+  color: orangered;
+}
+
+.user-component__subtitle i {
+  color: orangered;
+}
