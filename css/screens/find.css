@@ -14,6 +14,22 @@
   padding-bottom: 18px;
 }
 
+.find-icons__icons:last-child {
+  padding-right: 35px;
+}
+
+.find-icons__icons:nth-child(3) {
+  padding-right: 20px;
+}
+
+.find-icons__icons:nth-child(2) {
+  padding-right: 0px;
+}
+
+.find-icons__icons:first-child {
+  padding-left: 20px;
+}
+
 .find-icons__icons {
   margin-top: 18px;
 }
@@ -137,4 +153,33 @@ body {
 .open-post__heart-count_re span {
   margin-left: 3px;
   margin-right: 5px;
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 0.5s linear infinite;
+}
+
+.open-post__heart-count_re:hover i {
+  will-change: transform;
+  animation: heartBeat 0.5s linear infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+body {
+  height: 110vh;
 }
